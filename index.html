@@ -1,30 +1,9 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Welcome to #DBHangOps! by dbhangops</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Welcome to #DBHangOps!</h1>
-        <p>Talk shop and learn about MySQL and occasionally some other stores!</p>
-
-
-        <p class="view"><a href="https://github.com/dbhangops">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-dbhangops" class="anchor" href="#welcome-to-dbhangops"><span class="octicon octicon-link"></span></a>Welcome to DBHangOps!</h3>
+---
+layout: default
+title: Welcome to #DBHangOps!
+---
+<h1>Welcome to #DBHangOps!</h1>
+<h3><a name="what-is-dbhangops" class="anchor" href="#what-is-dbhangops"><span class="octicon octicon-link"></span></a>What is #DBHangOps?</h3>
 
 <p>DBHangOps is a bi-weekly google hangout meeting of various members of the MySQL community that simply want to talk shop about MySQL in their day-to-day and share fun learnings from working with MySQL and other data stores.  Also be sure to check out <a href="http://www.hangops.com">#hangops</a>, which was part of the original inspiration for DBHangOps!</p>
 
@@ -37,12 +16,10 @@
 <a name="what-do-a-bunch-of-dbas-talk-about" class="anchor" href="#what-do-a-bunch-of-dbas-talk-about"><span class="octicon octicon-link"></span></a>What do a bunch of DBAs talk about..?</h3>
 
 <p>Topics are always suggested by anyone attending the google hangout or via e-mail and twitter. If you have an idea for a topic that you'd like to see, definitely let us know!  If you're curious about previous topics, be sure to checkout the previous recordings on <a href="http://www.youtube.com/playlist?list=PL4vwzit7cI7Hv5QC5qNT_nIOVQreSkSpU&amp;feature=c4-feed-u">the #DBHangOps youtube playlist</a>.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+
+<hr />
+<h3>Recent Posts</h3>
+{% for post in site.posts limit:2 %}
+<small>{{ post.date | date_to_string }}</small>
+<p class="view"><a href="{{ post.url }}">{{ post.title }}</a></p>
+{% endfor %}

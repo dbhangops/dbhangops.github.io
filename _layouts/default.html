@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>{{ page.title }}</title>
+
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<style>
+		header { zoom: 1.2; }
+		header h1 { margin-bottom: 5px; }
+		header h1 a { color: #494949; font-weight: bold; }
+		header h3 { margin-top: 20px; margin-bottom: 5px; }
+		header p.view { margin-bottom: 5px; }
+		header p.view small { padding-top: 2px; }
+		section p { margin-top: 10px; }
+		section h1 { margin-bottom: 10px; }
+		section h2 { margin-bottom: 10px; }
+		section h3 { margin-bottom: 10px; }
+	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+	    <h1><a href="/">#DBHangOps!</a></h1>
+        <p>Talk shop and learn about MySQL and occasionally some other stores!</p>
+
+		<p class="view"><a href="/posts.html">Topics and Recordings<small>Learn From Previous Discussions!</small></a></p>
+		<p class="view"><a href="/how.html">How to Join<small>Some simple setup help!</small></a></p>
+		<!-- <p class="view"><a href="https://github.com/dbhangops">View My GitHub Profile</a></p> -->
+		<p></p>
+		<h3>Follow Us On</h3>
+		<p class="view"><a href="https://www.twitter.com/dbhangops" target="tab">Twitter</a></p>
+      </header>
+      <section>
+	    {{ content }}
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
