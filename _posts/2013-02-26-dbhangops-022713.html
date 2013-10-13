@@ -1,0 +1,72 @@
+---
+layout: post
+title: '#DBHangOps 02/27/13'
+categories:
+- computing
+- database
+- linux
+- mysql
+tags:
+- '#DBHangOps'
+- database
+- HangOps
+- mysql
+- mysql_planet
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _wpas_done_all: '1'
+  _wp_old_slug: dbhangops-021313
+  _wpas_skip_3039720: '1'
+  _wpas_skip_3039727: '1'
+  _wpas_skip_3039731: '1'
+  _wpas_skip_3039741: '1'
+---
+EDIT: Video from today's #DBHangOps!
+<iframe width="560" height="315" src="http://www.youtube.com/embed/FTBZYQZ5TVA?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Hey there peeps!
+
+<strong>February 27th at 12:00pm PST</strong> it is!  Check back here for more info and keep a watchful eye on <a href="https://twitter.com/search/realtime?q=%23DBHangOps">the twitter search</a> (and feel free to join the conversation!).  The topics we're looking to cover this week are:
+<ul>
+	<li>Day-to-day pain points (what takes more time than it should?)
+<ul>
+	<li>rolling restarts and upgrades</li>
+	<li>Performing checksums on your data
+<code>$ /usr/bin/pt-table-checksum \
+  --quiet \
+  --ignore-databases=mysql,percona,information_schema,per
+formance_schema \
+  --lock-wait-time=50 \
+  --chunk-size-limit=0 \
+  --no-check-plan \
+  --no-check-binlog-format \
+  --max-lag=1 \
+  --replicate percona.checksums \
+  h=database.example.com \
+  2>&1 | grep -v '^Cannot connect to'</code></li>
+</ul>
+</li>
+	<li>Troubleshooting learnings and horror stories</li>
+	<li>What toolkits do you use when things break? During an major outage?
+<ul>
+	<li>pmysql -- <a href="http://dom.as/2010/08/12/pmysql-multi-server-mysql-client/">http://dom.as/2010/08/12/pmysql-multi-server-mysql-client/</a></li>
+	<li>csshX -- <a href="http://code.google.com/p/csshx/">http://code.google.com/p/csshx/</a></li>
+	<li>TMux -- <a href="http://tmux.sourceforge.net/">http://tmux.sourceforge.net/</a>
+<ul>
+	<li>TMux pane synchronization -- <a href="http://amjith.posterous.com/synchronize-panes-in-tmux">http://amjith.posterous.com/synchronize-panes-in-tmux</a></li>
+</ul></li>
+	<li>TShark command from Chad to view logins on a server:
+<code>$ tshark -l -i eth0 port 3306 -s 4096 -d tcp.port==3306,mysql -z "proto,colinfo,mysql.query,mysql.query" | awk '/MySQL Login Request/ {print $2 " " $8}'</code></li>
+<li>Box Raingauge -- <a href="https://github.com/box/RainGauge">https://github.com/box/RainGauge</a>
+<ul><li>Gavin Towey's presentation at Velocity Europe 2012 -- <a href="http://www.youtube.com/watch?v=YZEA00bQsq8">http://www.youtube.com/watch?v=YZEA00bQsq8</a></li></ul>
+</ul>
+</li>
+</ul>
+
+Looking forward to seeing all of you DBAs on the google hangout! :)
+
+<del datetime="2013-02-13T19:27:46+00:00">Got a fun #DBHangOps planned for this week, Wednesday 02/13/12 at 12:00pm PST. Be sure to hit up this blog post tomorrow or check <a href="https://twitter.com/search/realtime?q=%23DBHangOps">this twitter search</a> to grab the link to join the Google Hangout.</del>
+<del datetime="2013-02-27T00:35:31+00:00">Looking to bump this to either February 20th or February 27th</del>.  
