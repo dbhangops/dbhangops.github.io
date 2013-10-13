@@ -1,0 +1,12 @@
+destination: ./_site
+paginate:    5
+port:        4000
+pygments:    true
+markdown:    redcarpet
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
