@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>www.dbhangops.net</title>
+  <link href="http://www.dbhangops.net/"/>
+  <link type="application/atom+xml" rel="self" href="http://www.dbhangops.net/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://www.dbhangops.net/</id>
+  <author>
+    <name>Geoffrey Anderson</name>
+	<email>geoff@geoffreyanderson.net</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://www.dbhangops.net{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://www.dbhangops.net{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Geoffrey Anderson</name>
+      <uri>http://www.dbhangops.net/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>
+
