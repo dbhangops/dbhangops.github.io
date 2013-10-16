@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'LIVE: #DBHangOps 10/16/13 -- Resource Management, Compliance, and more!'
+title: '#DBHangOps 10/16/13 -- Resource Management, Compliance, and more!'
 categories:
 - computing
 - database
@@ -22,7 +22,9 @@ published: true
 \#DBHangOps 10/16/13 -- Resource Management, Compliance, and more
 =================================================================
 
-**You can join \#DBHangOps at [this google hangout link](http://t.co/guQhCxY0Hb) or watch the [livestream](http://t.co/4beL1mBtTd)**
+This weeks \#DBHangOps is a wrap. Check out the recording below:
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/SjsHsnghNCk" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
 Hello everyone!
 
@@ -42,3 +44,4 @@ This Wednesday, **October 16th, 2013 at 12:00pm pacific (19:00 GMT)**, \#DBHangO
 Be sure to check out the [\#DBHangOps twitter search](https://twitter.com/search/realtime?q=%23DBHangOps), the [@DBHangOps](https://twitter.com/dbhangops) twitter feed, or this blog post to get a link for the google hangout on Wednesday!
 
 See all of you on Wednesday!
+
