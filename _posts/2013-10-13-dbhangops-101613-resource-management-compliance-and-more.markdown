@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#DBHangOps 10/16/13 -- Resource Management, Compliance, and more!'
+title: 'LIVE: #DBHangOps 10/16/13 -- Resource Management, Compliance, and more!'
 categories:
 - computing
 - database
@@ -21,6 +21,8 @@ published: true
 ---
 \#DBHangOps 10/16/13 -- Resource Management, Compliance, and more
 =================================================================
+
+**You can join \#DBHangOps at [this google hangout link](http://t.co/guQhCxY0Hb) or watch the [livestream](http://t.co/4beL1mBtTd)**
 
 Hello everyone!
 
