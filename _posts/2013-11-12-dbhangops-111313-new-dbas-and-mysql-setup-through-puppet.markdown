@@ -22,6 +22,9 @@ published: true
 \#DBHangOps 11/13/13 -- New DBAs and MySQL setup through Puppet!
 ========================================================
 
+To Join today's hangout, go to: <a href="http://t.co/II1HfrXqKp">http://t.co/II1HfrXqKp</a>
+To watch the livestream, check out: <a href="http://www.youtube.com/watch?v=4XuDhkobzX0">http://www.youtube.com/watch?v=4XuDhkobzX0</a>
+
 Hello everyone!
 
 Participate in \#DBHangOps this Wednesday, **November 13th, 2013 at 12:00pm pacific (19:00 GMT)**, to hear about:
