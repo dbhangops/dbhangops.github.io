@@ -22,6 +22,9 @@ published: true
 \#DBHangOps 11/13/13 -- MySQL setup through Puppet!
 ========================================================
 
+Feel free to join the discussion on Google Hangout at: [http://bit.ly/1boBuAB](http://bit.ly/1boBuAB)
+Or watch the livestream at: [http://www.youtube.com/watch?v=BUnNT43lrEw](http://www.youtube.com/watch?v=BUnNT43lrEw)
+
 Hello everybody!
 
 Join in \#DBHangOps this Wednesday, **November 27th, 2013 at 12:00pm pacific (19:00 GMT)**, to participate in the discussion about:
