@@ -22,6 +22,8 @@ published: true
 \#DBHangOps 12/11/13 -- Backups, Sharding, and more!
 =========================================================
 
+You can join \#DBHangOps at: [http://bit.ly/1coYU3Z](http://bit.ly/1coYU3Z) or watch the livestream at [http://www.youtube.com/watch?v=skksuiUODKk](http://www.youtube.com/watch?v=skksuiUODKk)!
+
 Happy Holidays!
 
 Participate in \#DBHangOps this Wednesday, **December, 11, 2013 at 12:00pm pacific (19:00 GMT)**, to discuss:
