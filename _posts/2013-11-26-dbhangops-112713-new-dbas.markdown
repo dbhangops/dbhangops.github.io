@@ -19,7 +19,7 @@ status: publish
 type: post
 published: true
 ---
-\#DBHangOps 11/13/13 -- MySQL setup through Puppet!
+\#DBHangOps 11/27/13 -- Ramping up new DBAs!
 ========================================================
 
 Please check out the recording below!
