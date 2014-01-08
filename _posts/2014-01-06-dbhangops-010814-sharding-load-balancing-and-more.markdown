@@ -22,6 +22,9 @@ published: true
 \#DBHangOps 01/08/14 -- Sharding (part 2), Load balancing, and more!
 =========================================================
 
+Join the conversation at [http://bit.ly/1bSaYKt](http://bit.ly/1bSaYKt) or watch the livestream at [http://www.youtube.com/watch?v=tbHYcNBlofk](http://www.youtube.com/watch?v=tbHYcNBlofk).
+
+
 Hello everybody!
 
 Join in \#DBHangOps this Wednesday, **January, 08, 2014 at 12:00pm pacific (19:00 GMT)**, to participate in the discussion about:
