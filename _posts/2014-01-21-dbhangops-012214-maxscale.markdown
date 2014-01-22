@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 01/22/14 -- Maxscale, Replication Saturation, and monitoring
 =========================================================
 
+Join the discussion at http://bit.ly/1inOfOW or watch the livestream:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/ecwC4xtTJbI" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Wednesday, **January, 22, 2014 at 12:00pm pacific (19:00 GMT)**, to participate in the discussion about:
