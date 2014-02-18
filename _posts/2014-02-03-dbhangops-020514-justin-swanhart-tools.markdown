@@ -22,7 +22,7 @@ published: true
 \#DBHangOps 02/05/14 -- Justin Swanhart, Routines, and more!
 =========================================================
 
-Join the conversation at http://bit.ly/1g2Kbiw or watch the livestream:
+Check out the recording below:
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/YYBz0b-fams" frameborder="0" allowfullscreen></iframe>
 
