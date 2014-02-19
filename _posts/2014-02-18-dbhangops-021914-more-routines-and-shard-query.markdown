@@ -24,7 +24,7 @@ published: true
 
 Hello everybody!
 
-Join in \#DBHangOps this Wednesday, **February, 19, 2014 at 12:00pm pacific (19:00 GMT)**, to participate in the discussion about:
+Join in \#DBHangOps this Wednesday, **February, 19, 2014 at 12:00pm pacific (20:00 GMT)**, to participate in the discussion about:
 
 * Follow-up discussion on routines, functions, and trigger
 * Justin Swanhart to demo more of shard-query and flexviews
