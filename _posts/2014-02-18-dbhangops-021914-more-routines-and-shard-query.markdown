@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#DBHangOps 02/19/14 -- More Routines. More shard-query. More, more, more!
+title: '#DBHangOps 02/19/14 -- More Routines. More shard-query. More, more, more!'
 categories:
 - computing
 - database
