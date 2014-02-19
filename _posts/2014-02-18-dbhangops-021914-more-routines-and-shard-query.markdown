@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 02/19/14 -- More Routines. More shard-query. More, more, more!
 =========================================================
 
+[Join the Google Hangout](http://bit.ly/1d0NLY0) or watch the livestream below:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/ZJKtdKlOJd8" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Wednesday, **February, 19, 2014 at 12:00pm pacific (20:00 GMT)**, to participate in the discussion about:
