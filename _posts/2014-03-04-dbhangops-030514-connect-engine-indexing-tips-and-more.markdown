@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 03/05/14 -- CONNECT storage engine, Indexing tips, and more!
 =========================================================
 
+You can join the discussion on Google Hangouts at http://bit.ly/1cv0B6w or watch the livestream below:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/1JV8bECorCE" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Wednesday, **March, 05, 2014 at 12:00pm pacific (20:00 GMT)**, to participate in the discussion about:
