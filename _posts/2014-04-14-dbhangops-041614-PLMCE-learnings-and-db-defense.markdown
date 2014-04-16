@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 04/16/14 -- PLMCE Learnings and Defending your DBs!
 =========================================================
 
+Come join the GHangout at http://goo.gl/rxttYG or watch the livestream below:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/Q0VsrYm6q9I" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Wednesday, **April, 16, 2014 at 12:00pm pacific (20:00 GMT)**, to participate in the discussion about:
