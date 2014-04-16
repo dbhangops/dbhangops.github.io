@@ -28,7 +28,7 @@ Come join the GHangout at http://goo.gl/rxttYG or watch the livestream below:
 
 Hello everybody!
 
-Join in \#DBHangOps this Wednesday, **April, 16, 2014 at 12:00pm pacific (20:00 GMT)**, to participate in the discussion about:
+Join in \#DBHangOps this Wednesday, **April, 16, 2014 at 12:00pm pacific (19:00 GMT)**, to participate in the discussion about:
 
 * Learnings from Percona Live MySQL Conference and Expo
 * Defending your databases!
