@@ -9,9 +9,9 @@ then
 	exit 1
 fi
 root="$(dirname "$0")"
-nextShortDate="$(date -v+wed "+%m%d%y")"
-nextSlashDate="$(date -v+wed "+%m/%d/%y")"
-fullDate="$(date -v+wed "+%B, %d, %Y")"
+nextShortDate="$(date -v+thu "+%m%d%y")"
+nextSlashDate="$(date -v+thu "+%m/%d/%y")"
+fullDate="$(date -v+thu "+%B, %d, %Y")"
 newFile="${root}/_posts/$(date "+%Y-%m-%d")-dbhangops-${nextShortDate}-${1}.markdown"
 
 cat << EOF > "$newFile"
@@ -41,13 +41,13 @@ published: true
 
 Hello everybody!
 
-Join in \#DBHangOps this Wednesday, **${fullDate} at 12:00pm pacific (19:00 GMT)**, to participate in the discussion about:
+Join in \#DBHangOps this Thursday, **${fullDate} at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
 
 * TODO:ReplaceWithDiscussionPoint
 	* TODO:ReplaceWithDiscussionPointSubItem
 
-Be sure to check out the [\#DBHangOps twitter search](https://twitter.com/search/realtime?q=%23DBHangOps), the [@DBHangOps](https://twitter.com/dbhangops) twitter feed, or this blog post to get a link for the google hangout on Wednesday!
+Be sure to check out the [\#DBHangOps twitter search](https://twitter.com/search/realtime?q=%23DBHangOps), the [@DBHangOps](https://twitter.com/dbhangops) twitter feed, or this blog post to get a link for the google hangout on Thursday!
 
-See all of you on Wednesday!
+See all of you on Thursday!
 EOF
 
