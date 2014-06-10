@@ -20,7 +20,7 @@ type: post
 published: true
 ---
 \#DBHangOps 06/12/14 -- MySQL Credential management and Gaps
-=========================================================
+============================================================
 
 Hello everybody!
 
