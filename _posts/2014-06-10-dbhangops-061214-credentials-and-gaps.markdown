@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#DBHangOps 06/12/14 -- MySQL Credential management and Gaps (when to stop working on something)'
+title: '#DBHangOps 06/12/14 -- MySQL Credential management and Gaps'
 categories:
 - computing
 - database
@@ -19,7 +19,7 @@ status: publish
 type: post
 published: true
 ---
-\#DBHangOps 06/12/14 -- MySQL Credential management and Gaps (when to stop working on something)
+\#DBHangOps 06/12/14 -- MySQL Credential management and Gaps
 =========================================================
 
 Hello everybody!
