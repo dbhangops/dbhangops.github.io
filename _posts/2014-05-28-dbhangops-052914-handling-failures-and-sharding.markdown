@@ -22,7 +22,7 @@ published: true
 \#DBHangOps 05/29/14 -- Handling Failures and More Sharding
 =========================================================
 
-You can join today's GHangout at http://bit.ly/1mLpoET or watch the livestream below:
+Check out the recording below:
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/VsC0au1ppn0" frameborder="0" allowfullscreen></iframe>
 

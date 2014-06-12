@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 06/12/14 -- MySQL Credential management and Gaps
 ============================================================
 
+You can join the google hangout at http://bit.ly/1oTkJCe or watch the livestream below!
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/DBxV34V8uLU" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Thursday, **June, 12, 2014 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
