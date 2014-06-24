@@ -1,0 +1,37 @@
+---
+layout: post
+title: '#DBHangOps 06/26/14 -- PERFORMANCE_SCHEMA in MySQL 5.7 and more!'
+categories:
+- computing
+- database
+- debugging
+- linux
+- mysql
+tags:
+- '#DBHangOps'
+- computing
+- database
+- HangOps
+- linux
+- mysql
+- mysql_planet
+status: publish
+type: post
+published: true
+---
+\#DBHangOps 06/26/14 -- PERFORMANCE_SCHEMA in MySQL 5.7 and more!
+=========================================================
+
+Hello everybody!
+
+Join in \#DBHangOps this Thursday, **June, 26, 2014 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
+
+* MySQL 5.7 PERFORMANCE_SCHEMA (from Mark Leith!)
+	* New instruments
+	* How to use the instruments
+	* Open questions!
+* Any other MySQL 5.7 discussion!
+
+Be sure to check out the [\#DBHangOps twitter search](https://twitter.com/search/realtime?q=%23DBHangOps), the [@DBHangOps](https://twitter.com/dbhangops) twitter feed, or this blog post to get a link for the google hangout on Thursday!
+
+See all of you on Thursday!
