@@ -22,7 +22,7 @@ published: true
 \#DBHangOps 06/26/14 -- PERFORMANCE_SCHEMA in MySQL 5.7 and more!
 =========================================================
 
-Join the GHangout at http://bit.ly/1qLcOcC or watch the livestream below
+Check out the recording below!
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/vWC147j8iuw" frameborder="0" allowfullscreen></iframe>
 
@@ -30,6 +30,7 @@ Hello everybody!
 
 Join in \#DBHangOps this Thursday, **June, 26, 2014 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
 
+* MySQL 5.7 Semi-sync replication (Morgan Tocker)
 * MySQL 5.7 PERFORMANCE_SCHEMA (from Mark Leith!)
 	* New instruments
 	* How to use the instruments
@@ -39,3 +40,41 @@ Join in \#DBHangOps this Thursday, **June, 26, 2014 at 11:00am pacific (18:00 GM
 Be sure to check out the [\#DBHangOps twitter search](https://twitter.com/search/realtime?q=%23DBHangOps), the [@DBHangOps](https://twitter.com/dbhangops) twitter feed, or this blog post to get a link for the google hangout on Thursday!
 
 See all of you on Thursday!
+
+
+<a name="show-notes">Show notes</a>
+===========
+## Semi-Sync replication
+* See Morgan's blog post about semi-sync replicationa at http://www.tocker.ca/2014/06/05/semi-sync-replication-is-not-slow.html
+* You can follow a step-by-step tutorial at http://dev.mysql.com/doc/refman/5.7/en/replication-semisync-installation.html for setting it up!
+* To ensure that semi-sync replication stays enabled, you'll want to persist the following changes into your my.cnf on the master:
+		[mysqld]
+		rpl_semi_sync_master_enabled=1
+		rpl_semi_sync_master_timeout=1000 # 1 second
+
+	and on the slave:
+		[mysqld]
+		rpl_semi_sync_slave_enabled=1
+
+## MySQL 5.7 PERFORMANCE_SCHEMA
+* PSHelper has been forked into SYS to provide more than just performance_schema helpers
+	* Check out SYS at https://github.com/MarkLeith/mysql-sys/
+* SYS provides new views:
+	* X$ views are the same as ps_helper views, just with raw data
+* SYS is also now packaged with MySQL Workbench.  There's some good integrations here:
+	* http://mysqlworkbench.org/2014/03/mysql-workbench-6-1-performance-schema-reports/
+* New instruments in 5.7 PERFORMANCE_SCHEMA
+	* Lots of instruments around transactions: events_transactions_*
+		* events_transactions_current will give you the state of currently executing transactions on the server
+			* The NESTING_* fields are used to run hierarchical queries
+		* events_transactions_history_long will show the last 10000 transactions run on the server
+	* Memory instruments: memory_summary_*
+		* In MySQL 5.7.4 the memory instruments don't capture information from the InnoDB storage engine. There's work being done on this for a future release
+	* Metadata locks!
+		* You can track metadata locks at any level on the server (global, table, etc.)
+		* Identify the owners and sessions of the locks
+* Can PERFORMANCE_SCHEMA be extended to add instruments for other storage engines?
+	* You can potentially patch your own instruments in
+	* Feel free to file bugs on the MySQL bug tracker for instruments you'd like to see!
+
+
