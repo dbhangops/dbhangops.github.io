@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 07/24/14 -- More Indexing!
 =========================================================
 
+The GHanout is up! You can join the discussion at http://bit.ly/1rDYmUm or watch the livestream below:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/Mrcg2eLjFJo" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Thursday, **July, 24, 2014 at 11:00am pacific (18:00 GMT)**, where we pick up on our [last conversation about indexing](http://dbhangops.github.io/2014/07/08/dbhangops-071014-mysql-index-types/):
