@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 08/07/14 -- Spatial Indexes, GTID, and more!
 =========================================================
 
+You can join today's #DBHangOps at https://plus.google.com/hangouts/_/gzk23wdvnd5lajvva5bej62jaea or watch the livestream below:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/g8BJt9b5idA" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join us at \#DBHangOps this Thursday, **August, 07, 2014 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
