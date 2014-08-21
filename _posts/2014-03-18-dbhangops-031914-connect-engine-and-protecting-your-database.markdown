@@ -22,7 +22,7 @@ published: true
 \#DBHangOps 03/19/14 -- CONNECT Engine in MariaDB, Protecting your database, and more!
 =========================================================
 
-You can join the Google Hangout at http://bit.ly/1lPyLlv or watch the livestream below:
+You can catch the recording below:
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/HtzVU4L09LI" frameborder="0" allowfullscreen></iframe>
 
