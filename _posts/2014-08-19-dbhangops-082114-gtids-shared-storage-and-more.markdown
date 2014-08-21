@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 08/21/14 -- GTIDs, Shared Storage, and more!
 =========================================================
 
+You can join today's Google Hangout at http://bit.ly/1vmGR9W or watch the livestream below:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/xNsN8nuei80" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Thursday, **August, 21, 2014 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
