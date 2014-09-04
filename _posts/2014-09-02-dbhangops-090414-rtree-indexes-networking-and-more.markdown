@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 09/04/14 -- R-Tree Indexes, DBAs and Networking, and more!
 =========================================================
 
+You can join today's Hangout at http://bit.ly/1AaZsXl or watch the livestream below:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/95QYLncWZI0" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Thursday, **September, 04, 2014 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
