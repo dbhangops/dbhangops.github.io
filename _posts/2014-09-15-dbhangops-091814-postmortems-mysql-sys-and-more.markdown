@@ -22,6 +22,10 @@ published: true
 \#DBHangOps 09/18/14 -- Postmortems, MySQL SYS, and more!
 =========================================================
 
+You can join today's hangout at http://bit.ly/1s8TYhg or watch the livestream below:
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/VeinzEWSLqw" frameborder="0" allowfullscreen></iframe>
+
 Hello everybody!
 
 Join in \#DBHangOps this Thursday, **September, 18, 2014 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
