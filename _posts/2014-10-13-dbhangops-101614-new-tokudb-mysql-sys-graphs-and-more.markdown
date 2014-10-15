@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#DBHangOps 10/16/14 -- New in TokuDB, MySQL SYS, Graphs, and more!'
+title: '#DBHangOps 10/16/14 -- MySQL SYS, Graphs, and more!'
 categories:
 - computing
 - database
@@ -19,14 +19,14 @@ status: publish
 type: post
 published: true
 ---
-\#DBHangOps 10/16/14 -- New in TokuDB, MySQL SYS, Graphs, and more!
+\#DBHangOps 10/16/14 -- MySQL SYS, Graphs, and more!
 =========================================================
 
 Hello everybody!
 
 Join in \#DBHangOps this Thursday, **October, 16, 2014 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
 
-* New in TokuDB 7.5
+* ~~New in TokuDB 7.5~~ (rescheduled for next time!)
 * MySQL SYS features and discussion -- what do you want to see in MySQL SYS?
 * What graphs make a good dashboard?
 
