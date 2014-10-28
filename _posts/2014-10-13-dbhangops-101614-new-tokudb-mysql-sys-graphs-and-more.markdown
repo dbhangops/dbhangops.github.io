@@ -38,3 +38,56 @@ See all of you on Thursday!
 
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/u_0VdVKxlbY" frameborder="0" allowfullscreen></iframe>
+
+
+<a href="#show-notes">Show Notes</a>
+==========
+
+## What graphs make a good dashboard?
+* Etsy uses ganglia to collect metrics and graphite to visualize their data and aggregates
+	* 300-400 dashboards of graphs for various systems
+	* Etsy deploys new code 20+ times a day, so deployment graphs help for this
+* What type of graphs do you watch?
+	* CPU utilization
+	* Disk IO Wait
+	* Command counters (SELECTs, UPDATEs, DELETES, INSERTs)
+	* Innodb\_history\_list\_length -- this will help you find if there's large or long-running transactions in your system
+	* temp tables on disk -- this is a big user of disk IO and CPU. You want to try and keep this down
+	* table\_open\_cache
+	* binlog\_cache\_disk\_usage
+	* sort\_merge\_passes
+	* rows\_read or rows\_changed in InnoDB
+	* Handler counters -- The various handler counters can help indicate changes on the storage engine level
+	* Long query counters
+	* Idle transaction counters
+* MySQL Enterprise Monitor (MEM) collects most of the above metrics automatically and provides feedback based on their values
+	* MEM can also provide some trend monitoring and projections around future capacity based on usage (e.g. current disk usage rate and how long until you saturate your disk)
+* What collects your metrics?
+	* Etsy uses https://github.com/ganglia/gmond_python_modules/blob/master/mysqld/python_modules/mysql.py
+	* Box's collectors can be seen in http://www.slideshare.net/geoffanderson/monitoring-mysql-with-opentsdb-19982758
+* System-level metrics
+	* CPU usage and idle
+	* IO statistics
+	* If you use FusionIO or other heavy SSD solutions, gather their metrics (e.g. heat sensors, block usage)
+	* If you use spinning disks, collect metrics from SMART
+* What granularity do you measure?
+	* Average can cause some events to be lost.  Percentiles tends to give you better visibility into your system's overall performance (e.g. 95th percentile)
+* What do you use to collect and view all your data?
+	* Zabbix
+	* Cacti
+	* Ganglia
+	* OpenTSDB
+	* collectd
+	* poor man monitoring
+
+## MySQL SYS
+* MySQL SYS is similar to Common Schema, but there's not a complete overlap
+	* Common Schema is more focused around administering things and viewing system data
+	* MySQL SYS is more focused on PERFORMANCE\_SCHEMA data and rolling it up for easy consumability
+* What features do DBAs want to see?
+	* Finding long transactions and killing them off
+	* easily bubbling up the "worst queries" to evaluate (query time sum, execution sum, etc.)
+		* tying CPU usage and IO information to bad queries so you can easily discover bad queries based on resource usage
+	* Method to identify "badness" at a high-level (or across multiple nodes in a replication topology) and then be able to drill down quickly
+	* CLI tools or views in MySQL SYS could help show high-level health of a node and then make it easy to find memory/IO/CPU problems happening
+
