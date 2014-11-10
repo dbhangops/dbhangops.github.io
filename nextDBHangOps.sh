@@ -46,8 +46,14 @@ Join in \#DBHangOps this Thursday, **${fullDate} at 11:00am pacific (18:00 GMT)*
 * TODO:ReplaceWithDiscussionPoint
 	* TODO:ReplaceWithDiscussionPointSubItem
 
-Be sure to check out the [\#DBHangOps twitter search](https://twitter.com/search/realtime?q=%23DBHangOps), the [@DBHangOps](https://twitter.com/dbhangops) twitter feed, or this blog post to get a link for the google hangout on Thursday!
+You can check out the event page at [TODO:ReplaceWithEventLink](https://plus.google.com/u/0/hangouts) on Thursday to participate.
+
+As always, you can still watch the [\#DBHangOps twitter search](https://twitter.com/search/realtime?q=%23DBHangOps), the [@DBHangOps](https://twitter.com/dbhangops) twitter feed, or this blog post to get a link for the google hangout on Thursday!
 
 See all of you on Thursday!
+
+You can catch a livestream at:
+
+<TODO:videoEmbedHere>
 EOF
 
