@@ -41,7 +41,7 @@ You can catch a livestream at:
 <iframe width="560" height="315" src="//www.youtube.com/embed/mz-379Bna5E" frameborder="0" allowfullscreen></iframe>
 
 
-<a href="#show-notes">Show Notes</a>
+<a href="#show-notes" id="show-notes">Show Notes</a>
 ==========
 # Compression
 ## TokuDB compression
