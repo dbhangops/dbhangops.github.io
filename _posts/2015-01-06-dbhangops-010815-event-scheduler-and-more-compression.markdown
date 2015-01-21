@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#DBHangOps 01/08/15 -- MySQL Event Scheduler, Compression, and more!'
+title: '#DBHangOps 01/08/15 -- More Compression!'
 categories:
 - computing
 - database
@@ -19,16 +19,16 @@ status: publish
 type: post
 published: true
 ---
-\#DBHangOps 01/08/15 -- MySQL Event Scheduler, Compression, and more!
+\#DBHangOps 01/08/15 -- More Compression!
 =========================================================
 
 Hello everybody!
 
 Join in \#DBHangOps this Thursday, **January, 08, 2015 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
 
-* MySQL Event Scheduler
 * More compression!
-* What is everyone's understanding of `innodb_io_capacity`?
+* ~~MySQL Event Scheduler~~
+* ~~What is everyone's understanding of `innodb_io_capacity`?~~
 
 You can check out the event page at https://plus.google.com/events/cb7pdn3egenc6c79lc4bc74kr04 on Thursday to participate.
 
