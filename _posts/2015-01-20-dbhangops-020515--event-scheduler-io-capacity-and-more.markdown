@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#DBHangOps 01/22/15 -- MySQL Event Scheduler, InnoDB IO Capacity, and more!'
+title: '#DBHangOps 02/05/15 -- MySQL Event Scheduler, InnoDB IO Capacity, and more!'
 categories:
 - computing
 - database
@@ -19,12 +19,12 @@ status: publish
 type: post
 published: true
 ---
-\#DBHangOps 01/22/15 -- MySQL Event Scheduler, InnoDB IO Capacity, and more!
+\#DBHangOps 02/05/15 -- MySQL Event Scheduler, InnoDB IO Capacity, and more!
 =========================================================
 
 Hello everybody!
 
-Join in \#DBHangOps this Thursday, **January, 22, 2015 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
+Join in \#DBHangOps this Thursday, **February, 5, 2015 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
 
 * MySQL Event Scheduler
   * What use cases do you have?
