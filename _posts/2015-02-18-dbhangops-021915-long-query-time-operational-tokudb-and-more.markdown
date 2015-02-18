@@ -24,7 +24,7 @@ published: true
 
 Hello everybody!
 
-Join in \#DBHangOps this Thursday, **February, 19, 2015 at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
+Join in \#DBHangOps this Thursday, **February, 19, 2015 at 11:00am pacific (19:00 GMT)**, to participate in the discussion about:
 
 * Learnings from operating TokuDB
 * What's a good `long_query_time`?
