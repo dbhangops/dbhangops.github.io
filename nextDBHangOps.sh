@@ -41,7 +41,7 @@ published: true
 
 Hello everybody!
 
-Join in \#DBHangOps this Thursday, **${fullDate} at 11:00am pacific (18:00 GMT)**, to participate in the discussion about:
+Join in \#DBHangOps this Thursday, **${fullDate} at 11:00am pacific (19:00 GMT)**, to participate in the discussion about:
 
 * TODO:ReplaceWithDiscussionPoint
 	* TODO:ReplaceWithDiscussionPointSubItem
