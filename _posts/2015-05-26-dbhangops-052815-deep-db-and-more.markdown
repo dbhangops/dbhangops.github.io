@@ -44,11 +44,16 @@ You can catch a livestream at:
 
 Show Notes
 ==========
-# Deep Engine
+
+## Deep Engine
+
+<iframe src="https://app.box.com/embed_widget/s/4yydjsjutxfa6pwx4inuthnytu3dti9t?view=&sort=&direction=ASC&theme=gray" width="500" height="400" frameborder="1" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+
 * Company was started about 4 years ago. Wanted to tackle the problem of scaling up modern database infrastructures as hardware has improved
 * Also wanted to tackle the science about the storage technology to improve things. Kudos to TokuDB with their Fractal Index work
 
-## Legacy Sciences
+
+### Legacy Sciences
 * log files -- optimized for write optimized work loads
 * B+ Tree -- optimized for reads
 * LSM Tree -- write optimized
@@ -57,14 +62,14 @@ Show Notes
     * tree width/depth
 * Ultimately, a lot of these are very rigid in their implementations which is why there's so many options to use
 
-## Rethinking Sciences of Databases
+### Rethinking Sciences of Databases
 * can we redefine data structures during runtime to improve performance
     * Optimize key size and space usage on the fly
     * have storage algorithms be tolerant of these changes
     * dynamically changing page sizes
 * Continue to be ACID compliant while solving these storage challenges
 
-## CASSI: Adaptive Structure/Algorithm
+### CASSI: Adaptive Structure/Algorithm
 * Continuous Adaptive Sequential Summarization of Information
 * storage to disk doesn't use pages like other traditional storage engines. Data is written as append-only log files
     * DeepIS has some patented methods to avoid painful locking behavior while maintaining a denormalized copy of statistics for tables in their engine
@@ -77,7 +82,7 @@ Show Notes
         * As a result of this, you don't need to worry about doing "OPTIMIZE TABLE" operations and such since the engine is always restructuring the underlying data.
         * In the directory on the filesystem, there's multiple files for each index and table data to support adaptive changes to the underlying storage objects.
 
-## CASSI Benefits
+### CASSI Benefits
 * Secondary indexes have a pointer back to the primary index *and* to the actual data on disk
     * This sounds like a lot of I/O, both during writes and during normal (idle) operation
         * Disk flushing dynamically changes for grouping writes based on the velocity of writes coming into MySQL
@@ -91,7 +96,7 @@ Show Notes
         * As a result of the append-only structure too, rollbacks are pretty cheap and can go to any point in time.
 * This sounds kinda like PBXT (https://mariadb.com/kb/en/mariadb/about-pbxt/)
 
-## Deep Engine
+### Deep Engine
 * lightweight plug-and-play storage engine (~10MB) for MySQL.
 * designed as an alternative to InnoDB/XtraDB storage engines as an application/schema compatible storage engine
 * A lot of data about statistics are exposed via `INFORMATION_SCHEMA`
