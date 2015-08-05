@@ -45,3 +45,56 @@ See all of you on Thursday!
 You can catch a livestream at:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/lh_QNKjCoSI" frameborder="0" allowfullscreen></iframe>
+
+
+<a href='#show-notes' id='show-notes'>Show Notes</a>
+==========
+
+## What does security mean for you?
+* Visibility
+  * what happens
+  * when it happene
+  * where it happened
+* Controlling Access
+* Security and standards
+
+### Common tools, settings you use, and gotchas
+* [Center for Internet Security toolkit](http://benchmarks.cisecurity.org/downloads/show-single/?file=mysql56.100) for MySQL
+* Nessus toolkit
+  * walks through parts of infrastructure to find compliance violations
+* Setup automated user management
+  * When you GRANT privileges, do you use wildcard for the host (e.g. `GRANT USAGE on *.* TO 'someUser'@'%'`) or do you put an IP range
+  * in newer versions of mysql the username length is increased to 32 characters
+  * Password rotations still aren't atomic unfortunately
+    * typically create a new account, migrate your applications to it, the remove the old account
+* Watch for new CVEs for MySQL
+  * Making mysql upgrades easier so CVEs are easy to handle
+* What about for companies that are still small but growing into a larger environment?
+  * For a lot of places, security starts at the network layer to protect the environment
+  * You may not have a security team
+* Could consider setting up SSL for your MySQL connections
+* Secrets managements
+  * https://square.github.io/keywhiz/
+  * Locked down config files
+  * Custom encryption/salting of passwords in puppet!
+
+## Managing schema migrations securely
+* How do you protect against accidental DROP statements (on columns, fields, etc.)
+  * Disallow destructive migrations
+  * Ensure destructive migrations are rolled out over time
+    * Verify applications don't need the table/object anymore
+    * Rename the table/object to be removed
+    * After a few days, remove the table
+
+## MySQL Upgrade process
+* For larger environments
+  * May have pools of database servers. Can afford to take a subset of the infrastructure out to upgrade.
+* Policy-wise
+  * Upgrading for a security bug typically means bringing other upgrade changes in too
+  * Need to validate performance of a new version
+  * Upgrading several thousand servers can be challenging with different workloads
+* How do you make sure a new version is safe?
+  * Run in dev or sandbox environments first
+  * Grab query logs and run them through pt-log-player (or pt-playback) against the new version of MySQL to identify if the queries perform better or worse
+  * Throw new version in a customer read-only path for a little bit. Promote to master afterwards.
+
