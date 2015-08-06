@@ -98,3 +98,8 @@ You can catch a livestream at:
   * Grab query logs and run them through pt-log-player (or pt-playback) against the new version of MySQL to identify if the queries perform better or worse
   * Throw new version in a customer read-only path for a little bit. Promote to master afterwards.
 
+## Links of interest!
+* [CIS Oracle MySQL Community Server 5.6 Benchmark v1.0.](http://benchmarks.cisecurity.org/downloads/show-single/?file=mysql56.100)
+* [OWASP Zed Attack Proxy Project](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
+* [Percona Warning Suppres Options](https://www.percona.com/doc/percona-server/5.5/flexibility/log_warnings_suppress.html)
+* [Keywhiz](https://square.github.io/keywhiz/) - a system for managing and distributing secrets.
