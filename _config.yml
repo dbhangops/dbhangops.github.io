@@ -1,9 +1,17 @@
+author:
+  name:  Geoffrey Anderson
+  email: geoff@geoffreyanderson.net
+  uri:   http://geoffreyanderson.net
+description: DBHangOps is a bi-weekly google hangout meeting of various members of the MySQL community that simply want to talk shop about MySQL in their day-to-day and share fun learnings from working with MySQL and other data stores
 destination: ./_site
-permalink:   /:year/:month/:day/:title
-paginate:    5
-port:        4000
-pygments:    true
+gems:
+  - jekyll-feed
+highlighter: pygments
 markdown:    redcarpet
+name:        Welcome to \#DBHangOps
+paginate:    5
+permalink:   /:year/:month/:day/:title
+port:        4000
 redcarpet:
   extensions:
     - hard_wrap
